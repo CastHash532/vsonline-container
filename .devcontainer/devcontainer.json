@@ -1,0 +1,19 @@
+{
+	"name": ".NET Core Sample",
+	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-12",
+	"context" : ".",
+	
+	"runArgs": [
+		"--network", "host",
+	],
+	
+	"appPort": [5432],
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+  
+	"extensions": [
+		"ms-azuretools.vscode-docker"
+	]
+}
