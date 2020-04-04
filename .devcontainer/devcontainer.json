@@ -1,13 +1,13 @@
 {
-	"name": ".NET Core Sample",
-	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-12",
+	"name": "Ionic Dev Env",
+	"image": "beevelop/ionic",
 	"context" : ".",
 	
 	"runArgs": [
 		"--network", "host",
 	],
 	
-	"appPort": [5432],
+	"appPort": [8100],
 
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
