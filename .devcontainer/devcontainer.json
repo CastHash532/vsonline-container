@@ -1,17 +1,9 @@
 {
-	"name": "Docker Dev Env",
-	"image": "docker",
-	"context" : ".",
+	"name": "Docker Dev-Env",
+	
 	
 	"runArgs": [
 		"--network", "host",
 	],
-	
-	"appPort": [8100],
-
-	"settings": { "terminal.integrated.shell.linux": "/bin/sh"},
-  
-	"extensions": [
-		"ms-azuretools.vscode-docker"
-	]
+	  
 }
