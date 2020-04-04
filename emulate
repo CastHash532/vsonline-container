@@ -1,0 +1,8 @@
+git clone https://github.com/playgameservices/android-basic-samples
+cd android-basic-samples
+sdkmanager "platform-tools" "system-images;android-24;default;arm64-v8a" "emulator"
+echo "no" | avdmanager create avd -n mydevice -k "system-images;android-24;default;arm64-v8a"
+emulator -avd mydevice -no-audio -accel on -gpu off &
+adb devices
+./gradlew build
+./gradlew connectedAndroidTest
