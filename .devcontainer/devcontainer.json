@@ -1,6 +1,6 @@
 {
-	"name": "Ionic Dev Env",
-	"image": "beevelop/ionic",
+	"name": "Docker Dev Env",
+	"image": "docker",
 	"context" : ".",
 	
 	"runArgs": [
